@@ -21,7 +21,7 @@ class Window(Tk):
         self.mainloop()
     
     def calculate(self):
-        self.km = 1.6
+        self.km = 1.609
         self.num.config(text=f'{round(float(self.input.get()) * self.km, 2)}')
         
         
