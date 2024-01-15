@@ -22,7 +22,7 @@ class Window(Tk):
     
     def calculate(self):
         self.km = 1.6
-        self.num.config(text=f'{float(self.input.get()) * self.km}')
+        self.num.config(text=f'{round(float(self.input.get()) * self.km, 2)}')
         
         
  
