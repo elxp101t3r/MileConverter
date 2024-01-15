@@ -4,7 +4,7 @@ class Window(Tk):
     def __init__(self):
         super().__init__()
         self.title("Mile to Km Converter")
-        self.minsize(width=400, height=400)
+        self.minsize(width=100, height=100)
         self.config(padx=5, pady=5)
         self.input = Entry(width=10)
         self.input.grid(padx=70, pady=10,column=1, row=0)
